@@ -22,3 +22,12 @@ What type of question can you ask machine with:
 -   Could be binary or dichotomous
 -   Could be multinomial
 -   Takes both continuous and discrete input data
+
+
+### Types of Classification
+
+-   Logistic Regression
+-   Decision Tree
+-   Random Forest
+-   K-Nearest Neighbour
+-   Naive Byes
