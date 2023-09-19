@@ -26,7 +26,11 @@ A machine learning pipeline is the end-to-end construct that orchestrates the fl
 
 ![Alt text](image-4.png)
 
-### [Cross-Validation](https://www.youtube.com/watch?v=fSytzGwwBVw)
+### Cross-Validation
+
+https://www.youtube.com/watch?v=xE9cIcJf48A
+
+https://www.youtube.com/watch?v=fSytzGwwBVw
 
 Cross-Validation is a technique which is used to train and evaluate our model on a portion of our database, before re-portioning our dataset and evaluating it on the new portions.
 
