@@ -1,4 +1,4 @@
-### [Machine Learning](https://www.youtube.com/watch?v=1FZ0A1QCMWc)
+## [Machine Learning](https://www.youtube.com/watch?v=1FZ0A1QCMWc)
 
 
 **Types in Machine Learning**
@@ -29,13 +29,3 @@
 https://www.youtube.com/watch?v=VAHoryyJPaA
 
 
-
-### Supervised Learning
-
--   Regression
--   Classification
-
-### Unsupervised Learning
-
--   Clustering
--   Association

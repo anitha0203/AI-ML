@@ -12,4 +12,10 @@ https://www.youtube.com/watch?v=DkLQtGqQedo
 https://www.youtube.com/watch?v=eJIp_mgVLwE&t=782s
 
 
-### 
+### Clustering With K-Means
+
+
+### Principal Component Analysis
+
+
+### Target Encoding
