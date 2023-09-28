@@ -18,7 +18,7 @@ A machine learning model is defined as a mathematical representation of the outp
 
 ###  [Underfitting, Overfitting, bias and Varaince](https://www.youtube.com/watch?v=_cdWpxqLbI0)
 
-
+![Alt text](image-1.png)
 
 ---
 
