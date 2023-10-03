@@ -23,7 +23,7 @@ https://medium.com/geekculture/linear-regression-from-scratch-in-python-without-
 
 https://betterprogramming.pub/simple-linear-regression-using-only-python-5c86af200bca
 
-![Alt text](image.png)
+![Alt text](images/image.png)
 
     x: input data points
     y: predicted value, dependent variable (supervised learning)
@@ -36,12 +36,17 @@ https://betterprogramming.pub/simple-linear-regression-using-only-python-5c86af2
 
 **Mean Squared Error (MSE)-**
 
-![Alt text](image-1.png)
+![Alt text](images/image-1.png)
 
 **Using this formula to find the m value**
 
-![Alt text](image-2.png)
+![Alt text](images/image-2.png)
 
 **R-squared value:**
 
-![Alt text](image-3.png)
+![Alt text](images/image-3.png)
+
+
+## Multiple Linear Regression
+
+https://faun.pub/implementing-multiple-linear-regression-from-scratch-in-python-f5d84d4935bb
