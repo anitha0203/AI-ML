@@ -1,7 +1,10 @@
 ## [Machine Learning](https://www.youtube.com/watch?v=1FZ0A1QCMWc)
 
+-   A subset of AI
+-   Uses Algorithms to learn and improve from training data
 
-**Types in Machine Learning**
+
+**[Types in Machine Learning](https://www.youtube.com/watch?v=VAHoryyJPaA)**
 
 ![Alt text](image-4.png)
 
@@ -26,6 +29,6 @@
 ![Alt text](image-6.png)
 
 
-https://www.youtube.com/watch?v=VAHoryyJPaA
+
 
 
