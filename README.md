@@ -6,8 +6,8 @@
 ### Machine Learning (ML)
 -   [Python](https://www.udemy.com/course/the-complete-python-course/)
 -   [Pandas](https://www.dataschool.io/easier-data-analysis-with-pandas/)
--   [Statistics](MachineLearning\Statistics\README.md)
--   [ML Concepts](MachineLearning\README.md)
+-   [Statistics](MachineLearning/Statistics/README.md)
+-   [ML Concepts](MachineLearning/README.md)
 
 ### Deep Learning (DL)
 <!-- -   A subset of ML
