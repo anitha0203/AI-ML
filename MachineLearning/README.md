@@ -6,7 +6,7 @@
 
 **[Types in Machine Learning](https://www.youtube.com/watch?v=VAHoryyJPaA)**
 
-![[Alt text](image-4.png)](ML_Practice/README.md)
+[![Alt text](image-4.png)](ML_Practice/README.md)
 
 **Definition**
 
