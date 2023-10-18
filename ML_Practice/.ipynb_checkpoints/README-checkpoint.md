@@ -50,3 +50,9 @@ https://betterprogramming.pub/simple-linear-regression-using-only-python-5c86af2
 ## Multiple Linear Regression
 
 https://faun.pub/implementing-multiple-linear-regression-from-scratch-in-python-f5d84d4935bb
+
+https://github.com/abhilampard/Multiple-Linear-Regression-From-Scratch/blob/master/Multiple_Linear_Regression.ipynb
+
+https://medium.com/we-are-orb/multivariate-linear-regression-in-python-without-scikit-learn-7091b1d45905
+
+https://www.youtube.com/watch?v=sRh6w-tdtp0
