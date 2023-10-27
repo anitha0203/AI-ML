@@ -4,15 +4,15 @@
 
 -   Regression
     -   [Simple Linear Regression](#simple-linear-regression)
-    -   Multiple Linear Regression
-    -   Polynomial Linear Regression
+    -   [Multiple Linear Regression](#multiple-linear-regression)
+    -   [Polynomial Linear Regression](#polynomial-linear-regression)
     
 -   Classification
     -   Logistic Regression
     -   Support vector Regression
 
 
-###    [Scaling](https://medium.com/analytics-vidhya/feature-scaling-clearly-explained-standardisation-normalization-6bc1a200a166)
+### [Scaling](https://medium.com/analytics-vidhya/feature-scaling-clearly-explained-standardisation-normalization-6bc1a200a166)
 
 **Standardization (Z-score scaling)**: This method scales data to have a mean of 0 and a standard deviation of 1. It's useful when the data approximately follows a normal distribution. The formula is:
 
@@ -30,8 +30,14 @@
         mean_y = y.mean()
         std_y = y.std()
         y = (y - mean_y) / std_y
-        
-## Simple Linear Regression
+
+
+## [Derivatives](https://www.youtube.com/watch?v=sqDBEyfRPo8)
+Derivatives are a fundamental concept in calculus, and they play a crucial role in many machine-learning algorithms. Put simply, a derivative measures the rate of change of a function at a particular point. This information can be used to optimize functions, find local minima and maxima, and more.
+
+    Note: Specifically using derivative to calculate the slope
+
+## Simple Linear Regression 
 
 Simple Linear Regression is a statistical method used to model the relationship between a single independent variable (predictor variable) and a dependent variable (target variable) by fitting a linear equation
 
