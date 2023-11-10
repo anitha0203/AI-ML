@@ -1,5 +1,7 @@
 ##  Artificial Intelligence & Machine Learning (AI/ML)
 
+> "_AI won't replace you, but it will empower those who embrace it._"
+
 ### Artificial Intelligence
 <!-- -   A field of study that uses computers to do processes that mimic human behavior -->
 

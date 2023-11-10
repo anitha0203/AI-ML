@@ -5,11 +5,13 @@
 -   Regression
     -   [Simple Linear Regression](#simple-linear-regression)
     -   [Multiple Linear Regression](#multiple-linear-regression)
-    -   [Polynomial Linear Regression](#polynomial-linear-regression)
+    -   [Polynomial Regression](#polynomial-linear-regression)
     
 -   Classification
     -   Logistic Regression
     -   Support vector Regression
+    -   K-Nearest Neighbors
+    -   Random Forest
 
 
 ### [Scaling](https://medium.com/analytics-vidhya/feature-scaling-clearly-explained-standardisation-normalization-6bc1a200a166)
@@ -76,9 +78,16 @@ Where:
 -   β₁, β₂, β₃, ..., βₚ are the coefficients (slopes) associated with each predictor variable, representing the change in Y for a one-unit change in the corresponding predictor variable.
 -   ε is the error term, representing the unexplained variation in Y.
 
-##  Polynomial Linear Regression
+        w = np.zeros(X.shape[1])  # Weights
+        b = 0  # Bias
+        learning_rate = 0.01
+        num_epochs = 1000
 
-Polynomial Linear Regression, often referred to as Polynomial Regression, is a regression technique that extends Simple Linear Regression. It is particularly useful when the relationship between variables does not follow a linear pattern but appears to be curvilinear.
+    This section initializes the parameters for a linear regression model. w represents the weights for the features, b is the bias term, learning_rate is the step size for gradient descent, and num_epochs is the number of training iterations.
+
+##  Polynomial Regression
+
+Polynomial Regression, often referred to as Polynomial Regression, is a regression technique that extends Simple Linear Regression. It is particularly useful when the relationship between variables does not follow a linear pattern but appears to be curvilinear.
 
 Y = β₀ + β₁X + β₂X² + β₃X³ + ... + βₚXᵖ + ε
 

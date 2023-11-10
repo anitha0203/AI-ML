@@ -1,58 +1,100 @@
-## [Mean, Median And Mode](https://www.youtube.com/watch?v=GvftKv9uctk)
+## Supervised Learning 
+
+**Supervised learning** is a category of machine learning in which an algorithm learns from labeled training data to make predictions or decisions without human intervention
+
+-   Regression
+    -   [Simple Linear Regression](#simple-linear-regression)
+    -   [Multiple Linear Regression](#multiple-linear-regression)
+    -   [Polynomial Regression](#polynomial-linear-regression)
+    
+-   Classification
+    -   Logistic Regression
+    -   Support vector Regression
+    -   K-Nearest Neighbors
+    -   Random Forest
 
 
-## [Variance and Standard Devation](https://www.youtube.com/watch?v=1E7NU-uWalY)
+### [Scaling](https://medium.com/analytics-vidhya/feature-scaling-clearly-explained-standardisation-normalization-6bc1a200a166)
+
+**Standardization (Z-score scaling)**: This method scales data to have a mean of 0 and a standard deviation of 1. It's useful when the data approximately follows a normal distribution. The formula is:
+
+**Implementing the Standardization for X and y**
+
+        X = data.iloc[:, 0]
+        y = data.iloc[:, 1]
+
+        # Standardization for X
+        mean_X = X.mean()
+        std_X = X.std()
+        X = (X - mean_X) / std_X
+
+        # Standardization for y
+        mean_y = y.mean()
+        std_y = y.std()
+        y = (y - mean_y) / std_y
 
 
-## Conditional Probability
+## [Derivatives](https://www.youtube.com/watch?v=sqDBEyfRPo8)
+Derivatives are a fundamental concept in calculus, and they play a crucial role in many machine-learning algorithms. Put simply, a derivative measures the rate of change of a function at a particular point. This information can be used to optimize functions, find local minima and maxima, and more.
 
-https://www.youtube.com/watch?v=evyT3_8Dnhs
+    Note: Specifically using derivative to calculate the slope
 
-https://www.youtube.com/watch?v=_IgyaD7vOOA
+## Simple Linear Regression 
 
-https://www.youtube.com/watch?v=JGeTcRfKgBo
+Simple Linear Regression is a statistical method used to model the relationship between a single independent variable (predictor variable) and a dependent variable (target variable) by fitting a linear equation
 
+**Note:** If you want to know more about SLR you can click below links watch it.
+-   https://medium.com/we-are-orb/linear-regression-in-python-without-scikit-learn-50aef4b8d122
+-   https://bagheri365.github.io/blog/Simple-Linear-Regression-from-Scratch/
+-   https://medium.com/analytics-vidhya/everything-you-need-to-know-about-linear-regression-750a69a0ea50
+-   https://medium.com/analytics-vidhya/understanding-the-linear-regression-808c1f6941c0
+-   https://towardsdatascience.com/linear-regression-using-gradient-descent-97a6c8700931
 
-## [Underfitting, Overfitting, bias and Varaince](https://www.youtube.com/watch?v=_cdWpxqLbI0)
+The Simple Linear Regression model can be represented by the equation:
 
+Y = β0 + β1X + ε
 
+Where:
 
-## Simple Linear Regression
-
-https://medium.com/geekculture/linear-regression-from-scratch-in-python-without-scikit-learn-a06efe5dedb6
-
-https://betterprogramming.pub/simple-linear-regression-using-only-python-5c86af200bca
-
-![Alt text](images/image.png)
-
-    x: input data points
-    y: predicted value, dependent variable (supervised learning)
-
-    The model gets the best-fit regression line by finding the best m, c values.
-    m: bias or slope of the regression line
-    c: intercept, shows the point where the estimated regression line crosses the 𝑦 axis
-
-
-
-**Mean Squared Error (MSE)-**
-
-![Alt text](images/image-1.png)
-
-**Using this formula to find the m value**
-
-![Alt text](images/image-2.png)
-
-**R-squared value:**
-
-![Alt text](images/image-3.png)
+-   Y is the predicted value of the dependent variable.
+-   X is the value of the independent variable.
+-   β0 is the intercept, representing the predicted value of Y when X is 0.
+-   β1 is the slope, representing the change in Y for a one-unit change in X.
+-   ε is the error term, representing the unexplained variation in Y.
 
 
 ## Multiple Linear Regression
+Multiple Linear Regression is an extension of Simple Linear Regression and is a widely used statistical technique for modeling the relationship between a dependent variable (target) and two or more independent variables (predictors). 
 
-https://faun.pub/implementing-multiple-linear-regression-from-scratch-in-python-f5d84d4935bb
+The Multiple Linear Regression model can be represented by the equation:
 
-https://github.com/abhilampard/Multiple-Linear-Regression-From-Scratch/blob/master/Multiple_Linear_Regression.ipynb
+Y = β₀ + β₁X₁ + β₂X₂ + β₃X₃ + ... + βₚXₚ + ε
 
-https://medium.com/we-are-orb/multivariate-linear-regression-in-python-without-scikit-learn-7091b1d45905
+Where:
 
-https://www.youtube.com/watch?v=sRh6w-tdtp0
+-   Y is the predicted value of the dependent variable.
+-   X₁, X₂, X₃, ..., Xₚ are the values of the independent variables (predictors).
+-   β₀ is the intercept, representing the predicted value of Y when all predictor variables are 0.
+-   β₁, β₂, β₃, ..., βₚ are the coefficients (slopes) associated with each predictor variable, representing the change in Y for a one-unit change in the corresponding predictor variable.
+-   ε is the error term, representing the unexplained variation in Y.
+
+        w = np.zeros(X.shape[1])  # Weights
+        b = 0  # Bias
+        learning_rate = 0.01
+        num_epochs = 1000
+
+    This section initializes the parameters for a linear regression model. w represents the weights for the features, b is the bias term, learning_rate is the step size for gradient descent, and num_epochs is the number of training iterations.
+
+##  Polynomial Regression
+
+Polynomial Regression, often referred to as Polynomial Regression, is a regression technique that extends Simple Linear Regression. It is particularly useful when the relationship between variables does not follow a linear pattern but appears to be curvilinear.
+
+Y = β₀ + β₁X + β₂X² + β₃X³ + ... + βₚXᵖ + ε
+
+Where:
+
+-   Y is the predicted value of the dependent variable.
+-   X is the value of the independent variable.
+-   β₀ is the intercept, representing the predicted value of Y when X is 0.
+-   β₁, β₂, β₃, ..., βₚ are the coefficients (slopes) associated with each term of the polynomial, representing the change in Y for a change in the corresponding predictor(s).
+-   ε is the error term, representing the unexplained variation in Y.
